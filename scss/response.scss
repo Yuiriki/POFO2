@@ -1,0 +1,491 @@
+
+
+
+@media all and(max-width:1170px){
+    #wrap #main #section2 .container .gap .wrap .title h2{
+        font-size: 18px;
+    }
+    #wrap #main #section2 .container .gap .wrap .content{
+        padding: 6.838% 0 0 0;
+    }
+    
+    #wrap #main #section2 .container .gap .wrap .title h2{
+        font-size: 20px;
+    }
+    #wrap #main #section3 .container .gap .wrap .content{
+        padding: 6.838% 0 0 0;
+    }
+    #wrap #main #section3 .container .gap .wrap .content > ul{
+        display: flex;
+        flex-flow: row wrap ;
+        > li{
+            width: 50%;
+            .col-gap{
+                margin : 15px;
+            }
+            
+            }
+    }
+    #wrap #main #section6 .container .gap .wrap .content > ul{
+        flex-flow: row wrap;
+        > li {
+        width: 50%;
+        .col-gap{
+            margin: 5px;
+        }
+    }
+    } 
+    #wrap #main #section7 .container .gap .wrap .content > ul{
+        flex-flow: row wrap;
+       > li{
+        width: 50%;
+            .col-gap{
+                margin: 15px;
+            }
+        } 
+    } 
+    #wrap #section8 .container .gap .content .wrap > ul {
+        flex-flow: row wrap;
+        > li{
+            width: 100%;
+            br{display: none;}
+            &:first-child{
+                .img-box{
+                    height: 500px;
+                }
+            }
+            &:last-child{
+                >ul{
+                    >li{
+                        text-align: center;
+                        h2{
+                            font-size: 2.5vw;
+                            line-height: 24px;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    #wrap #section9 .container .gap .wrap .content ul {
+            flex-flow: row wrap;
+            li{
+            width: 50%;
+            padding: 10px;
+            text-align: center;
+            .top{
+                span{
+                    p{
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+    #wrap #section10 .container .gap .wrap > ul > li .content form {
+        width: 80%;
+    }
+}
+
+@media all and (max-width:1024px){
+    #wrap #header{
+        &.h60{
+            
+            .container{
+                .gap{
+                    .wrap{
+                        #nav{
+                            top: 60px;
+                            > ul{
+                                > li{
+                                    .sub.sub1356,
+                                    .sub.sub24
+                                    {
+                                        top:0;
+                                    }
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #wrap #header .container .gap .wrap{
+        .mobile-menu{
+            display: block;
+        }
+        #nav{
+            display: none;
+            align-items: flex-start;
+            position: absolute;
+            top: 72px;
+            left: 0;
+            width: 100%;
+            background-color: #000; 
+            height: auto;
+            overflow-y: auto;
+                   
+        >ul{
+            width: 100%;
+            height: auto;
+            display: block;
+            
+            >li{
+                height: auto;
+                border-bottom: 1px solid #888;
+                margin: 0;
+                >a.main-btn{
+                    height: 38px;
+                    color: #fff;
+                    padding: 0 20px;
+                    line-height: 38px;
+                }
+                .sub.sub1356{
+                    display: none;
+                    position: relative;
+                    top:0;
+                    left: 0;
+                    width: 100%;
+                    .sub-gap{
+                        padding: 0 20px;
+                        >ul{
+                            width: 100%;
+                            display:block;
+                            > li{
+                                width: 100%;
+                                border-right: 0;
+                                
+                                &:last-child{
+                                    border-right: 0;
+                                }
+                                dl{
+                                    padding: 0;
+                                    dt{
+                                        border-bottom: 1px solid #303030;
+                                    }
+                                    dd{
+                                        border-bottom: 1px solid #303030;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .sub.sub24{
+                    display: none;
+                    position: relative;
+                    top:0;
+                    left: 0;
+                    width: 100%;
+                    .sub-gap{
+                        padding: 0 20px;
+                        >ul{
+                            width: 100%;
+                            > li{
+                                width: 100%;
+                                line-height: 35px;
+                                position: relative;
+                                
+                                > a{
+                                    > span{
+                                        color: #fff;
+                                        &::after{
+                                            display: none;
+                                        }
+                                    } 
+                                }
+                                .sub-sub{
+                                    border-top: 1px solid #303030;
+                                    position: relative;
+                                    top: 0;
+                                    left: 0;
+                                    background-color: #232323;
+                                    width: 100%;
+                                    display: block;
+                                    .sub-gap{
+                                        padding: 0;
+                                       > ul{
+                                        width: 100%;
+                                        > li{
+                                            width: 100%;
+                                            line-height: 35px;
+                                            border-bottom: 1px solid #303030;
+                                            > a{
+                                                >span{
+                                                    color: #9d9d9d;
+                                                    &::after{
+                                                        content: '';
+                                                    }
+                                                    }
+                                                }
+                                            }
+                                        }  
+                                    }
+                                   
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        }
+    } 
+}
+@media all and (max-width:991px) {
+    
+   
+    #wrap #main #section2,
+    #wrap #main #section3{
+        padding:50px 0;
+    }
+    #wrap #quickBox {
+        display:none;
+      }
+}
+
+@media all and(max-width:980px){
+    #wrap #main #section2 .container .gap .wrap .content > ul {
+        display: flex;
+        flex-flow: row wrap;
+        > li {
+            width: 50%;
+            .col-gap{
+                margin: 15px;
+            }
+        }
+    }
+    #wrap #main #section5 .container .gap .wrap .content ul.svg-box
+    {
+        flex-flow:row wrap;
+        li{            
+            width: 50%;
+            .col-gap{
+                margin: 15px;
+            }
+        }
+    }
+    #wrap #footer .container .gap .wrap .content{
+        text-align: center;
+       .top {
+            > ul {
+                    flex-flow: row wrap;
+                    > li{
+                        width: 100%;
+                        padding: 10px;
+                    }
+                }
+        } 
+        .bottom{
+            padding: 30px 0 0 0;
+           > ul {
+                flex-flow: row wrap;
+                > li{
+                    width: 100%;
+                    padding: 10px;
+                    &:first-child{text-align: center;}
+                    &:last-child{text-align: center;}
+                } 
+            } 
+        }
+    } 
+   
+}
+
+
+
+@media all and(max-width:740px){
+  
+   
+
+    
+    #wrap #main #section2 .container .gap .wrap .title {
+        margin: 0 auto;
+        width: 70%;
+        h2{
+            br{
+                display: none;
+                } 
+        }
+         
+    } 
+    #wrap #main #section3 .container .gap .wrap .title{
+        margin: 0 auto;
+        width: 70%;
+        padding: 0 0 6.8% 0;
+        h2{
+            font-size: 22px;
+            
+        }
+    }
+    #wrap #main #section3 .container .gap .wrap .content > ul{
+        display: flex;
+        flex-flow: row wrap ;
+        > li{
+            width: 100%;
+            
+            .col-gap{
+                margin : 15px;
+            }
+            }
+    }
+        
+    #wrap #main #section4 .container .gap .wrap #nav{
+        padding: 30px 0;
+        ul{
+            li{
+                display: block;
+                margin: 10px 0; 
+            }
+        }
+    }
+    #wrap #main #section6 .container .gap .wrap .content > ul{
+      
+        > li {
+        width: 100%;
+        
+        }
+    } 
+    #wrap #main #section7 .container .gap .wrap .content > ul{
+        
+       > li{
+        width: 100%;
+            
+        } 
+    } 
+    #wrap #section8 .container .gap .content .wrap > ul {
+        flex-flow: row wrap;
+        > li{
+            &:first-child{
+                .img-box{
+                    height: 400px;
+                }
+            }
+            &:last-child{
+                >ul{
+                    padding: 14.8%*.8;
+                    >li{
+                        text-align: center;
+                        h3{
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                        h2{
+                            font-size: 2.5vw*1.5;                            
+                        }
+                        p{
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #wrap #section9 .container .gap .wrap .content ul {
+        align-items: center;
+        li{
+        width: 100%;
+        text-align: center;
+            .top{
+                span{
+                    p{
+                        margin: 0 auto;
+                    }
+                }
+            }
+       
+    }
+}
+    
+    
+    
+}
+
+
+@media all and(max-width:620px){
+    #wrap #main #section2 .container .gap .wrap .content > ul {
+        
+        > li {
+            width: 100%;
+            
+        }
+    }
+    
+}
+
+@media all and(max-width:480px){
+    #wrap #main #section1 .slide-container .slide-view .slide-wrap .slide .caption{
+      h3 {
+        font-size: 0.94567vw * 2.2;
+        
+      }   
+      h2 {
+        font-size: 3.6784vw * 1.8;
+        
+      }
+      span{
+        a{
+            padding: 0.68313vw*2 1.57645vw*2;
+        }
+      }
+    } 
+    #wrap #main #section5 .container .gap .wrap .content ul.svg-box
+    {
+        
+        li{
+            
+            width: 100%;
+        }
+    }
+      
+     
+    #wrap #main #section3 .container .gap .wrap .title{
+        
+        h2{
+            font-size: 14px;
+           br{
+            display: none;
+           }
+            
+        }
+    }
+    #wrap #main #section6 .container .gap .wrap .content > ul > li .col-gap .col-wrap .caption > ul > li{
+
+        padding: 6px 0 ;
+        &:last-child{
+            padding: 4%;
+        }
+    }
+    #wrap #section8 .container .gap .content .wrap > ul {
+        flex-flow: row wrap;
+        > li{
+            &:first-child{
+                .img-box{
+                    height: 300px;
+                }
+            }
+            &:last-child{
+                >ul{
+                    padding: 14.8%*.5;
+                    >li{
+                        text-align: center;
+                        h2{
+                            font-size: 2.5vw*2;                            
+                        }
+                        p{
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+   
+  
+    
+}   
+
